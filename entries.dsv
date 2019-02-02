@@ -1,0 +1,51 @@
+Additional Drivers;svgicons/jockey.png;/usr/bin/software-properties-gtk --open-tab=4
+AisleRiot Solitaire;/usr/share/icons/hicolor/48x48/apps/gnome-aisleriot.png;/usr/games/sol
+Amazon;/usr/share/icons/hicolor/48x48/apps/amazon-store.png;/usr/share/ubuntu-web-launchers/amazon-launcher
+Archive Manager;/usr/share/icons/hicolor/48x48/apps/file-roller.png;file-roller
+Backups;/usr/share/icons/hicolor/48x48/apps/org.gnome.DejaDup.png;deja-dup
+Calendar;/usr/share/icons/hicolor/48x48/apps/org.gnome.Calendar.png;gnome-calendar
+Cheese;/usr/share/icons/hicolor/48x48/apps/org.gnome.Cheese.png;cheese
+Disks;/usr/share/icons/hicolor/48x48/apps/gnome-disks.png;gnome-disks
+Disk Usage Analyzer;/usr/share/icons/hicolor/48x48/apps/baobab.png;baobab
+Document Viewer;/usr/share/icons/hicolor/48x48/apps/evince.png;evince
+Files;/usr/share/icons/hicolor/48x48/apps/org.gnome.Nautilus.png;nautilus --new-window
+Firefox Web Browser;/usr/share/icons/hicolor/48x48/apps/firefox.png;firefox
+Fonts;svgicons/preferences-desktop-font.png;gnome-font-viewer
+GParted;/usr/share/icons/hicolor/48x48/apps/gparted.png;/usr/sbin/gparted
+Help;svgicons/help-browser.png;yelp
+IBus Preferences;svgicons/ibus-setup.png;ibus-setup
+Image Viewer;/usr/share/icons/hicolor/256x256/apps/eog.png;eog
+Input Method;svgicons/input-keyboard.png;im-config
+Language Support;svgicons/preferences-desktop-locale.png;/usr/bin/gnome-language-selector
+LibreOffice Calc;/usr/share/icons/hicolor/48x48/apps/libreoffice-calc.png;libreoffice --calc
+LibreOffice Draw;/usr/share/icons/hicolor/48x48/apps/libreoffice-draw.png;libreoffice --draw
+LibreOffice Impress;/usr/share/icons/hicolor/48x48/apps/libreoffice-impress.png;libreoffice --impress
+LibreOffice Math;/usr/share/icons/hicolor/48x48/apps/libreoffice-math.png;libreoffice --math
+LibreOffice;/usr/share/icons/hicolor/48x48/apps/libreoffice-startcenter.png;libreoffice
+LibreOffice Writer;/usr/share/icons/hicolor/48x48/apps/libreoffice-writer.png;libreoffice --writer
+Mahjongg;/usr/share/icons/hicolor/48x48/apps/gnome-mahjongg.png;gnome-mahjongg
+Mines;/usr/share/icons/hicolor/48x48/apps/gnome-mines.png;gnome-mines
+Network Connections;svgicons/preferences-system-network.png;nm-connection-editor
+Passwords and Keys;/usr/share/icons/hicolor/48x48/apps/seahorse.png;/usr/bin/seahorse
+Power Statistics;/usr/share/icons/hicolor/48x48/apps/org.gnome.PowerStats.png;gnome-power-statistics
+Printers;svgicons/printer.png;system-config-printer
+Regenerate entries for xlunch;/usr/share/icons/hicolor/48x48/apps/xlunch.png;xcp=$HOME/.config/xlunch/;xsp=$HOME/.local/share/xlunch;ni=/usr/share/icons/hicolor/48x48/apps/xlunch.png;mkdir -p $xcp && mkdir -p $xsp/svgicons && sh /usr/bin/genentries > $xcp/entries.dsv && ( notify-send -a xlunch -i $ni "Done generating new entries" && mv -f svgicons/* $xsp/svgicons && rm -r svgicons/ && ( cat $xcp/entries.dsv | sed 's|;svgicons\/|;.local/share/xlunch/svgicons/|' > entries2.dsv && mv entries2.dsv $xcp/entries.dsv ) ) || notify-send -a xlunch -i $ni "Error generating new entries"
+Remmina;/usr/share/icons/hicolor/48x48/apps/remmina.png;/usr/bin/remmina
+Rhythmbox;/usr/share/icons/hicolor/48x48/apps/rhythmbox.png;rhythmbox
+Screenshot;svgicons/applets-screenshooter.png;gnome-screenshot --interactive
+Settings;/usr/share/icons/hicolor/48x48/apps/gnome-control-center.png;gnome-control-center
+Shotwell;/usr/share/icons/hicolor/48x48/apps/shotwell.png;shotwell
+Simple Scan;/usr/share/icons/HighContrast/24x24/devices/scanner.png;simple-scan
+Software Updater;svgicons/system-software-update.png;/usr/bin/update-manager
+Software & Updates;/usr/share/icons/hicolor/48x48/apps/software-properties.png;software-properties-gtk
+Software;/usr/share/icons/hicolor/48x48/apps/org.gnome.Software.png;gnome-software
+Startup Applications;svgicons/session-properties.png;gnome-session-properties
+Startup Disk Creator;svgicons/usb-creator-gtk.png;usb-creator-gtk
+Sudoku;/usr/share/icons/hicolor/48x48/apps/gnome-sudoku.png;gnome-sudoku
+Terminal;svgicons/utilities-terminal.png;gnome-terminal
+Text Editor;/usr/share/icons/hicolor/48x48/apps/gedit.png;gedit
+Thunderbird Mail;/usr/share/pixmaps/thunderbird.xpm;thunderbird
+To Do;/usr/share/icons/hicolor/48x48/apps/org.gnome.Todo.png;gnome-todo
+Transmission;/usr/share/icons/hicolor/48x48/apps/transmission.png;transmission-gtk
+Videos;/usr/share/icons/hicolor/48x48/apps/org.gnome.Totem.png;totem
+Vim;/usr/share/icons/hicolor/48x48/apps/gvim.png;xterm-256color -e vim
