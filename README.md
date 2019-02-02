@@ -4,6 +4,7 @@ Graphical app launcher for MizuntuOS, using pure Xlib and Imlib2.
 
 # compile and test with:
 
+    make
     make test
 
 on some distros `libimlib2-dev` and `libx11` are needed for compilation.
@@ -20,10 +21,3 @@ For Fedora:
 sudo dnf install imlib2-devel libx11-devel
 ```
 
-How to Run Install and Test
-
-Type :
-
-make
-make test
-make install
