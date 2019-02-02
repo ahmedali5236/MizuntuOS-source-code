@@ -1,9 +1,6 @@
 # xlunch
-Graphical app launcher for X, using pure Xlib and Imlib2.
+Graphical app launcher for MizuntuOS, using pure Xlib and Imlib2.
 
-# website
-
-detailed info at: http://www.xlunch.org/
 
 # compile and test with:
 
@@ -23,11 +20,10 @@ For Fedora:
 sudo dnf install imlib2-devel libx11-devel
 ```
 
-# screenshots
+How to Run Install and Test
 
-![Screenshot](/../Screenshot/screenshot.png?raw=true "Screenshot")
+Type :
 
-![Screenshot](/../Screenshot/screenshot2.png?raw=true "Screenshot")
-
-Version 3 of xlunch added a lot of customization options, here are some of them in use:
-![Screenshot](/../Screenshot/screenshot3.png?raw=true "Screenshot")
+make
+make test
+make install
