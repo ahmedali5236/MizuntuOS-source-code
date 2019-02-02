@@ -40,7 +40,7 @@ test: MizuntuOS
 	./MizuntuOS -g extra/wp.jpg -f "extra/OpenSans-Regular.ttf/10" -i extra/sample_entries.dsv -b 140 --outputonly --iconpadding 20 --textpadding 10 --paddingswap --leastmargin 10 --highlight extra/highlight.png
 
 xlunch: MizuntuOS.c
-	$(CC) MizuntuOS.c -o xlunch $(LDFLAGS) $(CFLAGS)
+	$(CC) MizuntuOS.c -o MizuntuOS $(LDFLAGS) $(CFLAGS)
 
 entries.dsv:
 	bash extra/genentries > entries.dsv
